@@ -15,7 +15,7 @@ export function Footer() {
   return (
     <footer id="kontakt" className="bg-foreground text-background">
       <div className="container-luxe py-20 md:py-28 grid md:grid-cols-12 gap-12 md:gap-16">
-        <div className="md:col-span-4">
+        <div className="md:col-span-5">
           <Logo variant="light" size="footer" className="mb-8 -ml-2" />
           <p className="text-background/65 text-sm leading-relaxed max-w-xs">
             Thaimassage og oliemassage i hjertet af Herning. Et øjeblik for dig selv.
@@ -34,9 +34,36 @@ export function Footer() {
             </p>
             <p className="text-background/55 pt-2">CVR 46473248</p>
           </div>
+
+          <div className="mt-10">
+            <h3 className="text-xs uppercase tracking-[0.3em] text-background/60 mb-4">Find os</h3>
+            <a
+              href={MAP_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block aspect-[4/3] max-w-[260px] overflow-hidden rounded-sm border border-background/15 group"
+              aria-label="Åbn placering i Google Maps"
+            >
+              <iframe
+                title="Hamina Thai Massage placering"
+                src={MAP_SRC}
+                className="w-full h-full grayscale group-hover:grayscale-0 transition-all duration-700"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </a>
+            <a
+              href={MAP_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-block text-[11px] uppercase tracking-[0.25em] text-background/85 hover:text-background border-b border-background/40 pb-1"
+            >
+              Åbn i Google Maps →
+            </a>
+          </div>
         </div>
 
-        <div className="md:col-span-4">
+        <div className="md:col-span-3">
           <h3 className="text-xs uppercase tracking-[0.3em] text-background/60 mb-6">Navigation</h3>
           <ul className="space-y-3 text-sm">
             <li><a href="#top" className="text-background/85 hover:text-background">Forside</a></li>
@@ -44,8 +71,10 @@ export function Footer() {
             <li><a href="#behandlinger" className="text-background/85 hover:text-background">Behandlinger</a></li>
             <li><a href="#kontakt" className="text-background/85 hover:text-background">Kontakt</a></li>
           </ul>
+        </div>
 
-          <h3 className="text-xs uppercase tracking-[0.3em] text-background/60 mt-12 mb-6">Åbningstider</h3>
+        <div className="md:col-span-4">
+          <h3 className="text-xs uppercase tracking-[0.3em] text-background/60 mb-6">Åbningstider</h3>
           <ul className="divide-y divide-background/10 border-y border-background/10">
             {hours.map((h) => (
               <li
@@ -59,33 +88,6 @@ export function Footer() {
               </li>
             ))}
           </ul>
-        </div>
-
-        <div className="md:col-span-4">
-          <h3 className="text-xs uppercase tracking-[0.3em] text-background/60 mb-6">Find os</h3>
-          <a
-            href={MAP_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block aspect-[5/3] max-w-sm overflow-hidden rounded-sm border border-background/15 group"
-            aria-label="Åbn placering i Google Maps"
-          >
-            <iframe
-              title="Hamina Thai Massage placering"
-              src={MAP_SRC}
-              className="w-full h-full grayscale group-hover:grayscale-0 transition-all duration-700"
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
-          </a>
-          <a
-            href={MAP_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-4 inline-block text-[11px] uppercase tracking-[0.25em] text-background/85 hover:text-background border-b border-background/40 pb-1"
-          >
-            Åbn i Google Maps →
-          </a>
         </div>
       </div>
 
