@@ -14,13 +14,13 @@ const hours = [
 export function Footer() {
   return (
     <footer id="kontakt" className="bg-foreground text-background">
-      <div className="container-luxe py-20 md:py-24 grid md:grid-cols-12 gap-12 md:gap-10">
+      <div className="container-luxe py-16 md:py-24 grid md:grid-cols-12 gap-10 md:gap-10">
         <div className="md:col-span-4">
-          <div className="inline-block bg-background rounded-xl p-4 mb-8 overflow-hidden">
+          <div className="inline-block bg-background rounded-xl p-3 md:p-4 mb-6 md:mb-8 overflow-hidden">
             <img
               src={logoAsset.url}
               alt="Hamina Thai Massage"
-              className="h-36 md:h-40 w-auto scale-[1.6] origin-center"
+              className="h-24 md:h-40 w-auto scale-[1.5] md:scale-[1.6] origin-center"
             />
           </div>
           <p className="text-background/65 text-sm leading-relaxed max-w-xs">
@@ -75,7 +75,7 @@ export function Footer() {
             href={MAP_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="block aspect-square w-full overflow-hidden rounded-sm border border-background/15 group"
+            className="block aspect-[4/3] md:aspect-square w-full overflow-hidden rounded-sm border border-background/15 group"
             aria-label="Åbn placering i Google Maps"
           >
             <iframe

@@ -5,31 +5,31 @@ const BOOKING_URL = "https://hamina-thai-massage.planway.com/";
 
 export function Hero() {
   return (
-    <section id="top" className="relative min-h-screen flex items-center overflow-hidden">
+    <section id="top" className="relative min-h-[88vh] md:min-h-screen flex items-end md:items-center overflow-hidden">
       <img
         src={hero}
         alt="Rolig spa-atmosfære hos Hamina Thai Massage"
         width={1920}
         height={1280}
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover object-[72%_center] md:object-center"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/10 to-background/80" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/10 via-transparent to-background/85 md:from-background/30 md:via-background/10 md:to-background/80" />
       <div className="absolute inset-0 bg-rose/10 mix-blend-multiply" />
 
-      <div className="container-luxe relative z-10 pt-32 pb-20">
+      <div className="container-luxe relative z-10 pt-32 pb-12 md:pb-20 w-full">
         <div className="max-w-2xl animate-fade-up">
-          <div className="mt-10 flex flex-wrap gap-4">
+          <div className="flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
             <a
               href={BOOKING_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center bg-foreground text-background px-8 py-4 text-xs uppercase tracking-[0.2em] hover:bg-foreground/85 transition-all hover:translate-y-[-2px]"
+              className="inline-flex items-center justify-center bg-foreground text-background px-8 py-4 text-xs uppercase tracking-[0.2em] hover:bg-foreground/85 transition-all hover:translate-y-[-2px]"
             >
               Book nu
             </a>
             <a
               href="#behandlinger"
-              className="inline-flex items-center border border-foreground/30 text-foreground px-8 py-4 text-xs uppercase tracking-[0.2em] hover:bg-foreground hover:text-background transition-all"
+              className="inline-flex items-center justify-center border border-foreground/40 bg-background/70 backdrop-blur-sm text-foreground px-8 py-4 text-xs uppercase tracking-[0.2em] hover:bg-foreground hover:text-background transition-all"
             >
               Se behandlinger
             </a>
