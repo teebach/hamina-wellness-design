@@ -131,18 +131,8 @@ export function Treatments() {
           {treatments.map((t) => (
             <article
               key={t.name}
-              className="group bg-card rounded-sm overflow-hidden border-2 border-foreground hover:shadow-lift transition-all duration-500 hover:-translate-y-1"
+              className="group bg-card rounded-sm border-2 border-foreground hover:shadow-lift transition-all duration-500 hover:-translate-y-1"
             >
-              <div className="aspect-[4/5] overflow-hidden bg-rose-soft">
-                <img
-                  src={t.image}
-                  alt={t.alt}
-                  width={1024}
-                  height={1280}
-                  loading="lazy"
-                  className="w-full h-full object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-105"
-                />
-              </div>
               <div className="p-7 md:p-8">
                 <h3 className="font-display text-2xl md:text-3xl">{t.name}</h3>
                 <div className="mt-5 h-px w-10 bg-rose-deep/60" />
