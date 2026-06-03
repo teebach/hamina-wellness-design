@@ -16,11 +16,11 @@ export function Footer() {
     <footer id="kontakt" className="bg-foreground text-background">
       <div className="container-luxe py-20 md:py-24 grid md:grid-cols-12 gap-12 md:gap-10">
         <div className="md:col-span-4">
-          <div className="inline-block bg-background rounded-xl p-5 mb-8">
+          <div className="inline-block bg-background rounded-xl p-4 mb-8 overflow-hidden">
             <img
               src={logoAsset.url}
               alt="Hamina Thai Massage"
-              className="h-28 md:h-32 w-auto"
+              className="h-48 md:h-56 w-auto scale-[1.6] origin-center"
             />
           </div>
           <p className="text-background/65 text-sm leading-relaxed max-w-xs">
