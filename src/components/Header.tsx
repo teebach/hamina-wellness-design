@@ -25,8 +25,7 @@ export function Header() {
       <div className="container-luxe flex items-center justify-between">
         <a
           href="#top"
-          className="font-display text-2xl md:text-3xl tracking-wide"
-          style={{ color: "#F6D6DE" }}
+          className="font-display text-2xl md:text-3xl tracking-wide text-foreground"
           aria-label="Hamina Thai Massage"
         >
           Hamina Thai Massage

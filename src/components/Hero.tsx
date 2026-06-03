@@ -17,16 +17,6 @@ export function Hero() {
 
       <div className="container-luxe relative z-10 pt-32 pb-20">
         <div className="max-w-2xl animate-fade-up">
-          <p className="text-xs uppercase tracking-[0.4em] text-foreground/70 mb-6">
-            Wellness · Herning
-          </p>
-          <h1 className="font-display text-5xl md:text-7xl lg:text-8xl leading-[1.05] text-foreground">
-            Hamina<br />
-            <span className="italic text-rose-deep">Thai Massage</span>
-          </h1>
-          <p className="mt-8 text-lg md:text-xl text-foreground/75 max-w-lg font-light leading-relaxed">
-            Et øjebliks ro, velvære og fornyet energi.
-          </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <a
               href={BOOKING_URL}
