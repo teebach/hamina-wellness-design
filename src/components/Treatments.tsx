@@ -85,9 +85,9 @@ const treatments: Treatment[] = [
     alt: "Varm olie i wellness-behandling",
     prices: [
       { duration: "30 min", price: "300 kr" },
-      { duration: "60 min", price: "450 kr" },
-      { duration: "90 min", price: "650 kr" },
-      { duration: "120 min", price: "850 kr" },
+      { duration: "60 min", price: "500 kr" },
+      { duration: "90 min", price: "700 kr" },
+      { duration: "120 min", price: "900 kr" },
     ],
   },
   {
@@ -105,10 +105,10 @@ const treatments: Treatment[] = [
     image: couple,
     alt: "Parmassage i wellness-rum",
     prices: [
-      { duration: "30 min", price: "500 kr" },
-      { duration: "60 min", price: "850 kr" },
+      { duration: "30 min", price: "550 kr" },
+      { duration: "60 min", price: "900 kr" },
       { duration: "90 min", price: "1250 kr" },
-      { duration: "120 min", price: "1550 kr" },
+      { duration: "120 min", price: "1600 kr" },
     ],
   },
 ];
