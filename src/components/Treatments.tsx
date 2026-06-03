@@ -131,7 +131,7 @@ export function Treatments() {
           {treatments.map((t) => (
             <article
               key={t.name}
-              className="group bg-card rounded-sm overflow-hidden border border-border/60 hover:shadow-lift transition-all duration-500 hover:-translate-y-1"
+              className="group bg-card rounded-sm overflow-hidden border-2 border-foreground hover:shadow-lift transition-all duration-500 hover:-translate-y-1"
             >
               <div className="aspect-[4/5] overflow-hidden bg-rose-soft">
                 <img

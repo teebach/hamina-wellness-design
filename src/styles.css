@@ -53,22 +53,22 @@
   --popover-foreground: oklch(0.15 0 0);
   --primary: oklch(0.15 0 0);
   --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.95 0.025 10);
+  --secondary: oklch(0.9 0.055 10);
   --secondary-foreground: oklch(0.15 0 0);
-  --muted: oklch(0.97 0.01 10);
-  --muted-foreground: oklch(0.45 0.01 10);
-  --accent: oklch(0.92 0.045 10);
+  --muted: oklch(0.94 0.03 10);
+  --muted-foreground: oklch(0.45 0.02 10);
+  --accent: oklch(0.86 0.08 10);
   --accent-foreground: oklch(0.15 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(1 0 0);
-  --border: oklch(0.92 0.02 10);
-  --input: oklch(0.92 0.02 10);
-  --ring: oklch(0.85 0.05 10);
+  --border: oklch(0.86 0.045 10);
+  --input: oklch(0.86 0.045 10);
+  --ring: oklch(0.78 0.08 10);
 
   /* Brand */
-  --rose: oklch(0.89 0.055 10);          /* #F6D6DE soft pink */
-  --rose-soft: oklch(0.96 0.025 10);
-  --rose-deep: oklch(0.78 0.08 10);
+  --rose: oklch(0.83 0.09 10);           /* darker soft pink */
+  --rose-soft: oklch(0.92 0.05 10);
+  --rose-deep: oklch(0.7 0.12 10);
 }
 
 @font-face {
