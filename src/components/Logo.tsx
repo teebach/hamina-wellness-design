@@ -1,10 +1,15 @@
-import logo from "@/assets/logo.png";
+import logoAsset from "@/assets/hamina-logo.png.asset.json";
 
-export function Logo({ className = "" }: { className?: string }) {
+export function Logo({ className = "", variant = "dark" }: { className?: string; variant?: "dark" | "light" }) {
   return (
-    <a href="#top" className={`flex items-center gap-2 ${className}`} aria-label="Hamina Thai Massage">
-      <img src={logo} alt="" width={32} height={32} className="h-8 w-8" />
-      <span className="font-display text-xl tracking-wide">Hamina</span>
+    <a href="#top" className={`inline-flex items-center ${className}`} aria-label="Hamina Thai Massage">
+      <img
+        src={logoAsset.url}
+        alt="Hamina Thai Massage"
+        width={1500}
+        height={1060}
+        className={`h-12 md:h-14 w-auto ${variant === "light" ? "invert brightness-0" : ""}`}
+      />
     </a>
   );
 }

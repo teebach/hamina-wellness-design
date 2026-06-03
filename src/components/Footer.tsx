@@ -10,9 +10,7 @@ export function Footer() {
     <footer id="kontakt" className="bg-foreground text-background">
       <div className="container-luxe py-20 md:py-28 grid md:grid-cols-3 gap-12 md:gap-16">
         <div>
-          <div className="flex items-center gap-2 mb-6">
-            <span className="font-display text-2xl tracking-wide">Hamina</span>
-          </div>
+          <Logo variant="light" className="mb-6" />
           <p className="text-background/65 text-sm leading-relaxed max-w-xs">
             Thaimassage og oliemassage i hjertet af Herning. Et øjeblik for dig selv.
           </p>
@@ -72,7 +70,7 @@ export function Footer() {
           >
             Åbn i Google Maps →
           </a>
-          <div className="hidden">{/* keep Logo import used */}<Logo /></div>
+          
         </div>
       </div>
 
