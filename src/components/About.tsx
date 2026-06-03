@@ -17,7 +17,7 @@ export function About() {
         </div>
         <div className="order-1 md:order-2">
           <p className="text-xs uppercase tracking-[0.4em] text-rose-deep mb-6">Om Hamina</p>
-          <h2 className="font-display text-4xl md:text-5xl lg:text-6xl leading-tight">
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl leading-tight">
             Traditionel thai massage i rolige omgivelser.
           </h2>
           <div className="mt-8 space-y-5 text-foreground/75 leading-relaxed text-[15px]">
