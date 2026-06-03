@@ -20,8 +20,6 @@ export function Hero() {
         height={1280}
         className="hidden md:block absolute inset-0 w-full h-full object-cover object-center"
       />
-      <div className="hidden md:block absolute inset-0 bg-gradient-to-b from-background/10 via-transparent to-background/50" />
-      <div className="hidden md:block absolute inset-0 bg-rose/5 mix-blend-multiply" />
 
       <div className="container-luxe relative z-10 pt-16 pb-8 md:pt-32 md:pb-20 w-full">
         <div className="max-w-2xl animate-fade-up md:mt-0 mt-8">
