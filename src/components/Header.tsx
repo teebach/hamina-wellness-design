@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Logo } from "./Logo";
+
 
 const BOOKING_URL = "https://hamina-thai-massage.planway.com/";
 
