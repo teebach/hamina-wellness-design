@@ -5,18 +5,25 @@ const BOOKING_URL = "https://hamina-thai-massage.planway.com/";
 
 export function Hero() {
   return (
-    <section id="top" className="relative min-h-[88vh] md:min-h-screen flex items-end md:items-center overflow-hidden">
+    <section id="top" className="relative overflow-hidden bg-secondary md:min-h-screen md:flex md:items-center md:bg-background">
       <img
         src={hero}
         alt="Rolig spa-atmosfære hos Hamina Thai Massage"
         width={1920}
         height={1280}
-        className="absolute inset-0 w-full h-full object-cover object-[72%_center] md:object-center"
+        className="block w-full pt-20 md:hidden"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-background/10 via-transparent to-background/85 md:from-background/30 md:via-background/10 md:to-background/80" />
-      <div className="absolute inset-0 bg-rose/10 mix-blend-multiply" />
+      <img
+        src={hero}
+        alt="Rolig spa-atmosfære hos Hamina Thai Massage"
+        width={1920}
+        height={1280}
+        className="hidden md:block absolute inset-0 w-full h-full object-cover object-center"
+      />
+      <div className="hidden md:block absolute inset-0 bg-gradient-to-b from-background/30 via-background/10 to-background/80" />
+      <div className="hidden md:block absolute inset-0 bg-rose/10 mix-blend-multiply" />
 
-      <div className="container-luxe relative z-10 pt-32 pb-12 md:pb-20 w-full">
+      <div className="container-luxe relative z-10 pt-6 pb-8 md:pt-32 md:pb-20 w-full">
         <div className="max-w-2xl animate-fade-up">
           <div className="flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
             <a
