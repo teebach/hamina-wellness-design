@@ -23,7 +23,14 @@ export function Header() {
       }`}
     >
       <div className="container-luxe flex items-center justify-between">
-        <Logo />
+        <a
+          href="#top"
+          className="font-display text-2xl md:text-3xl tracking-wide"
+          style={{ color: "#F6D6DE" }}
+          aria-label="Hamina Thai Massage"
+        >
+          Hamina Thai Massage
+        </a>
         <nav className="hidden md:flex items-center gap-10 text-sm tracking-wide">
           <a href="#behandlinger" className="text-foreground/80 hover:text-foreground transition-colors">
             Behandlinger
