@@ -1,4 +1,4 @@
-import aboutAsset from "@/assets/hamina-storefront.png.asset.json";
+import aboutAsset from "@/assets/hamina-therapist.png.asset.json";
 const about = aboutAsset.url;
 
 export function About() {
@@ -8,7 +8,7 @@ export function About() {
         <div className="order-2 md:order-1">
           <img
             src={about}
-            alt="Hamina Thai Massage facade på Vestergade 9 i Herning"
+            alt="Terapeut hos Hamina Thai Massage byder velkommen"
             width={1600}
             height={1067}
             loading="lazy"
