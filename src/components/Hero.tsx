@@ -5,18 +5,18 @@ const BOOKING_URL = "https://hamina-thai-massage.planway.com/";
 
 export function Hero() {
   return (
-    <section id="top" className="relative min-h-[88vh] md:min-h-screen flex items-end md:items-center overflow-hidden">
+    <section id="top" className="relative min-h-[100svh] md:min-h-screen flex items-end md:items-center overflow-hidden bg-foreground md:bg-background">
       <img
         src={hero}
         alt="Rolig spa-atmosfære hos Hamina Thai Massage"
         width={1920}
         height={1280}
-        className="absolute inset-0 w-full h-full object-cover object-[72%_center] md:object-center"
+        className="absolute inset-0 w-full h-full object-contain md:object-cover md:object-center"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-background/10 via-transparent to-background/85 md:from-background/30 md:via-background/10 md:to-background/80" />
-      <div className="absolute inset-0 bg-rose/10 mix-blend-multiply" />
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background/80 md:from-background/30 md:via-background/10 md:to-background/80" />
+      <div className="absolute inset-0 bg-rose/5 md:bg-rose/10 mix-blend-multiply" />
 
-      <div className="container-luxe relative z-10 pt-32 pb-12 md:pb-20 w-full">
+      <div className="container-luxe relative z-10 pt-32 pb-8 md:pb-20 w-full">
         <div className="max-w-2xl animate-fade-up">
           <div className="flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
             <a
