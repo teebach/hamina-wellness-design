@@ -70,7 +70,7 @@ export function Footer() {
           >
             Åbn i Google Maps →
           </a>
-          <div className="hidden">{/* keep Logo import used */}<Logo /></div>
+          
         </div>
       </div>
 
