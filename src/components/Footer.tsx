@@ -1,4 +1,4 @@
-import { Logo } from "./Logo";
+import logoAsset from "@/assets/hamina-logo-new.png.asset.json";
 
 const MAP_SRC =
   "https://www.google.com/maps?q=Vestergade+9,+7400+Herning,+Denmark&output=embed";
@@ -16,7 +16,13 @@ export function Footer() {
     <footer id="kontakt" className="bg-foreground text-background">
       <div className="container-luxe py-20 md:py-24 grid md:grid-cols-12 gap-12 md:gap-10">
         <div className="md:col-span-4">
-          <Logo variant="light" size="footer" className="mb-8 -ml-2" />
+          <div className="inline-block bg-background rounded-xl p-5 mb-8">
+            <img
+              src={logoAsset.url}
+              alt="Hamina Thai Massage"
+              className="h-28 md:h-32 w-auto"
+            />
+          </div>
           <p className="text-background/65 text-sm leading-relaxed max-w-xs">
             Thaimassage og oliemassage i hjertet af Herning. Et øjeblik for dig selv.
           </p>
