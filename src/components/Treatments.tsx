@@ -74,9 +74,9 @@ const treatments: Treatment[] = [
     alt: "Aromaolier og lyserøde blomster",
     prices: [
       { duration: "30 min", price: "300 kr" },
-      { duration: "60 min", price: "450 kr" },
-      { duration: "90 min", price: "650 kr" },
-      { duration: "120 min", price: "850 kr" },
+      { duration: "60 min", price: "500 kr" },
+      { duration: "90 min", price: "700 kr" },
+      { duration: "120 min", price: "900 kr" },
     ],
   },
   {
@@ -96,8 +96,8 @@ const treatments: Treatment[] = [
     alt: "Lotus-blomst i skål og hvide håndklæder",
     prices: [
       { duration: "30 min", price: "300 kr" },
-      { duration: "60 min", price: "450 kr" },
-      { duration: "90 min", price: "650 kr" },
+      { duration: "60 min", price: "500 kr" },
+      { duration: "90 min", price: "700 kr" },
     ],
   },
   {
