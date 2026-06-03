@@ -20,7 +20,7 @@ export function Footer() {
             <img
               src={logoAsset.url}
               alt="Hamina Thai Massage"
-              className="h-48 md:h-56 w-auto scale-[1.6] origin-center"
+              className="h-36 md:h-40 w-auto scale-[1.6] origin-center"
             />
           </div>
           <p className="text-background/65 text-sm leading-relaxed max-w-xs">
