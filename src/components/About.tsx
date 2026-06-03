@@ -1,4 +1,5 @@
-import about from "@/assets/about.jpg";
+import aboutAsset from "@/assets/hamina-storefront.png.asset.json";
+const about = aboutAsset.url;
 
 export function About() {
   return (
@@ -7,11 +8,11 @@ export function About() {
         <div className="order-2 md:order-1">
           <img
             src={about}
-            alt="Minimalistisk wellness-rum med orkidéer og stearinlys"
-            width={1280}
-            height={1024}
+            alt="Hamina Thai Massage facade på Vestergade 9 i Herning"
+            width={1600}
+            height={1067}
             loading="lazy"
-            className="w-full aspect-[4/5] object-cover rounded-sm shadow-soft"
+            className="w-full aspect-[4/5] object-cover rounded-2xl shadow-lift"
           />
         </div>
         <div className="order-1 md:order-2">
