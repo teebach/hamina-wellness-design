@@ -23,8 +23,9 @@ export function Hero() {
       <div className="hidden md:block absolute inset-0 bg-gradient-to-b from-background/30 via-background/10 to-background/80" />
       <div className="hidden md:block absolute inset-0 bg-rose/10 mix-blend-multiply" />
 
-      <div className="container-luxe relative z-10 pt-6 pb-8 md:pt-32 md:pb-20 w-full">
-        <div className="max-w-2xl animate-fade-up">
+      <div className="container-luxe relative z-10 pt-16 pb-8 md:pt-32 md:pb-20 w-full">
+        <div className="max-w-2xl animate-fade-up md:mt-0 mt-8">
+
           <div className="flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
             <a
               href={BOOKING_URL}
