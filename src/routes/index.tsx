@@ -74,7 +74,7 @@ function Index() {
         <About />
         <Treatments />
         <Reviews />
-        <Hours />
+        
       </main>
       <Footer />
     </div>
