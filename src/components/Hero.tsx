@@ -11,6 +11,8 @@ export function Hero() {
         alt="Rolig spa-atmosfære hos Hamina Thai Massage"
         width={1920}
         height={1280}
+        fetchPriority="high"
+        decoding="async"
         className="block w-full pt-20 md:hidden"
       />
       <img
@@ -18,11 +20,14 @@ export function Hero() {
         alt="Rolig spa-atmosfære hos Hamina Thai Massage"
         width={1920}
         height={1280}
+        fetchPriority="high"
+        decoding="async"
         className="hidden md:block absolute inset-0 w-full h-full object-cover object-center"
       />
 
       <div className="container-luxe relative z-10 pt-16 pb-8 md:pt-32 md:pb-20 w-full">
         <div className="max-w-2xl animate-fade-up md:mt-0 mt-8">
+          <h1 className="sr-only">Hamina Thai Massage — Thaimassage og wellness i Herning</h1>
 
           <div className="flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
             <a
