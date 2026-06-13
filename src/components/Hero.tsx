@@ -11,6 +11,8 @@ export function Hero() {
         alt="Rolig spa-atmosfære hos Hamina Thai Massage"
         width={1920}
         height={1280}
+        fetchPriority="high"
+        decoding="async"
         className="block w-full pt-20 md:hidden"
       />
       <img
@@ -18,6 +20,8 @@ export function Hero() {
         alt="Rolig spa-atmosfære hos Hamina Thai Massage"
         width={1920}
         height={1280}
+        fetchPriority="high"
+        decoding="async"
         className="hidden md:block absolute inset-0 w-full h-full object-cover object-center"
       />
 
