@@ -1,0 +1,9 @@
+# Hamina Thai Massage
+
+> Hamina Thai Massage tilbyder professionel thaimassage, oliemassage og wellness i Herning, Danmark.
+
+Hamina ligger på Vestergade 9, 7400 Herning, og tilbyder traditionel thaimassage, varm oliemassage, fodmassage, nakke- og skuldermassage samt parmassage i rolige og hyggelige omgivelser.
+
+## Pages
+
+- [Forside](/): Introduktion til Hamina Thai Massage, behandlinger, åbningstider og kontaktoplysninger.
