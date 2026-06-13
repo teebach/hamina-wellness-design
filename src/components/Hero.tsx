@@ -23,6 +23,7 @@ export function Hero() {
 
       <div className="container-luxe relative z-10 pt-16 pb-8 md:pt-32 md:pb-20 w-full">
         <div className="max-w-2xl animate-fade-up md:mt-0 mt-8">
+          <h1 className="sr-only">Hamina Thai Massage — Thaimassage og wellness i Herning</h1>
 
           <div className="flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
             <a
