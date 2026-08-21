@@ -1,8 +1,6 @@
 import heroAsset from "@/assets/hamina-hero.png.asset.json";
 const hero = heroAsset.url;
 
-const BOOKING_URL = "https://hamina-thai-massage.planway.com/";
-
 export function Hero() {
   return (
     <section id="top" className="relative overflow-hidden bg-secondary md:min-h-screen md:flex md:items-center md:bg-background">
@@ -31,16 +29,8 @@ export function Hero() {
 
           <div className="flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
             <a
-              href={BOOKING_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center bg-foreground text-background px-8 py-4 text-xs uppercase tracking-[0.2em] hover:bg-foreground/85 transition-all hover:translate-y-[-2px]"
-            >
-              Book nu
-            </a>
-            <a
               href="#behandlinger"
-              className="inline-flex items-center justify-center border border-foreground/40 bg-background/70 backdrop-blur-sm text-foreground px-8 py-4 text-xs uppercase tracking-[0.2em] hover:bg-foreground hover:text-background transition-all"
+              className="inline-flex items-center justify-center border border-foreground bg-background/70 backdrop-blur-sm text-foreground px-12 py-5 text-sm uppercase tracking-[0.2em] hover:bg-foreground hover:text-background transition-all"
             >
               Se behandlinger
             </a>
