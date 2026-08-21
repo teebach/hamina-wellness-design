@@ -162,10 +162,10 @@ export function Treatments() {
           >
             Book Nu
           </a>
-          <p className="mt-4 text-xs uppercase tracking-[0.2em] text-foreground/50">
+          <p className="mt-4 text-xs uppercase tracking-[0.2em] text-foreground font-bold">
             Online booking · Bekræftet med det samme
           </p>
-          <p className="mt-3 text-sm text-foreground/60">
+          <p className="mt-3 text-sm text-foreground font-bold">
             Ingen seksuelle ydelser · Kun professionelle massagebehandlinger tilbydes
           </p>
         </div>
