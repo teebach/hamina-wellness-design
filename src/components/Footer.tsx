@@ -98,17 +98,6 @@ export function Footer() {
       </div>
 
       <div className="border-t border-background/15">
-        <div className="container-luxe py-8 md:py-10 text-center">
-          <p className="text-xs uppercase tracking-[0.2em] text-background/60 mb-3">
-            Ingen seksuelle ydelser
-          </p>
-          <p className="text-sm text-background/80">
-            Kun professionelle massagebehandlinger tilbydes.
-          </p>
-        </div>
-      </div>
-
-      <div className="border-t border-background/15">
         <div className="container-luxe py-6 flex flex-col md:flex-row justify-between gap-3 text-xs text-background/55">
           <p>© {new Date().getFullYear()} Hamina Thai Massage · CVR 46473248</p>
           <p>Vestergade 9 · 7400 Herning</p>
