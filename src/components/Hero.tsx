@@ -1,7 +1,3 @@
-import heroAsset from "@/assets/hamina-hero.png.asset.json";
-const hero = heroAsset.url;
-
-const BOOKING_URL = "https://hamina-thai-massage.planway.com/";
 
 export function Hero() {
   return (
