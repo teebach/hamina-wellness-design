@@ -165,6 +165,9 @@ export function Treatments() {
           <p className="mt-4 text-xs uppercase tracking-[0.2em] text-foreground/50">
             Online booking · Bekræftet med det samme
           </p>
+          <p className="mt-3 text-sm text-foreground/60">
+            Ingen seksuelle ydelser · Kun professionelle massagebehandlinger tilbydes
+          </p>
         </div>
       </div>
     </section>
