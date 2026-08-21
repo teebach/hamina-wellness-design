@@ -1,3 +1,5 @@
+import heroAsset from "@/assets/hamina-hero.png.asset.json";
+const hero = heroAsset.url;
 
 export function Hero() {
   return (
