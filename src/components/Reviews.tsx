@@ -2,16 +2,16 @@ const TRUSTPILOT_URL = "https://dk.trustpilot.com/review/hamina.dk";
 
 const reviews = [
   {
-    text: "Fantastisk behandling og en utrolig rolig atmosfære. Jeg gik derfra som et nyt menneske.",
-    name: "Mette L.",
+    text: "Dejlig oplevelse. Nu har jeg fået to gange a 2 timer og det er helt igennem professionelt. De går godt dybden og er omhyggelige de steder man har ondt. Det er dejlige og rolige omgivelser at være i. De er altid imødekommende og smilende.",
+    name: "Mads",
   },
   {
-    text: "Den bedste thaimassage i Herning. Dygtige, nærværende og varme hænder.",
-    name: "Jonas K.",
+    text: "Sød betjening, men samtidig med dejlig professionel massage, nem at parkere, jeg kommer igen. tak for i dag",
+    name: "Erling Olesen",
   },
   {
-    text: "Et helle midt i hverdagen. Stedet er smukt, og behandlingen var præcis det, jeg havde brug for.",
-    name: "Sara N.",
+    text: "Profesionelle massage. Rigtig god oplevelse!",
+    name: "Laura-Josephine ravn",
   },
 ];
 
