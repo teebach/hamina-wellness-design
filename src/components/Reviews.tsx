@@ -60,7 +60,7 @@ export function Reviews() {
             href={TRUSTPILOT_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 border border-foreground/30 text-foreground px-8 py-4 text-xs uppercase tracking-[0.2em] hover:bg-foreground hover:text-background transition-all"
+            className="inline-flex items-center gap-3 border-2 border-foreground text-foreground px-10 py-5 text-sm font-bold uppercase tracking-[0.15em] hover:bg-foreground hover:text-background transition-all"
           >
             <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current">
               <path d="M12 2l2.9 6.9L22 10l-5.5 4.8L18 22l-6-3.5L6 22l1.5-7.2L2 10l7.1-1.1z" />
