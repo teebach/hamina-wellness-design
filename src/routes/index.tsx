@@ -35,7 +35,7 @@ export const Route = createFileRoute("/")({
           name: "Hamina Thai Massage",
           image: "/og-image.jpg",
           telephone: "+4581983533",
-          email: "info@hamina.dk",
+          email: "em@hamina.dk",
           address: {
             "@type": "PostalAddress",
             streetAddress: "Vestergade 9",
