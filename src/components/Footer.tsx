@@ -34,8 +34,8 @@ export function Footer() {
               </a>
             </p>
             <p>
-              <a href="mailto:info@hamina.dk" className="hover:text-background transition-colors">
-                info@hamina.dk
+              <a href="mailto:em@hamina.dk" className="hover:text-background transition-colors">
+                em@hamina.dk
               </a>
             </p>
             <p className="text-background/55 pt-2">CVR 46473248</p>
